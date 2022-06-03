@@ -1,0 +1,6 @@
+version: "3.2"
+services:
+  ci-ep:
+    image: ci-rmqep-base:latest
+    container_name: 'ci-ep'
+    network_mode: host
